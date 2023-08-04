@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@600&display=swap');
+*{
+    
+    font-family: 'Scheherazade New', serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .2s linear;
+    font-size: 19px;
+
+}
+
+ul{
+
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header{
+    background-color: rgb(80 119 90);
+    height: 41px;
+    width: 100%;
+    padding: 5px;
+    border: 5px solid #50775a;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 86%);
+
+}
+
+body{
+
+    background: rgb(80 119 90 / 38%);
+    width: 100%;
+    height: 100%;
+
+}
+
+ul a:hover{
+
+    background-color: #466c50;
+    border-radius: 5px;
+    size-adjust: 44px;
+
+}
+
+.content{
+
+width: 50%;
+margin-top: 50px;
+padding: 30px;
+}
+
+.content h1{
+
+    font-size: 40px;
+    padding: 33px;
+}
+.content input{
+    font-size: 21px;
+}
+.content button {
+
+    font-size: 21px;
+    background-color: rgb(30, 148, 46);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 86%);
+}
+
+#footer {
+    background-color: rgba(36,85,49,.8);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 352px 0px 0px -16px;
+    padding: 44px;
+}
